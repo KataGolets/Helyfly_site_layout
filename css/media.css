@@ -1,0 +1,121 @@
+@media (max-width: 767px) {
+    h3 {
+        font-size: 28px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+}
+
+/* блок header */
+
+@media (max-width: 767px) {
+    .header {
+        height: 60px;
+    }
+    .nav {
+        display: none;
+    }
+}
+
+/* блок offer */
+
+@media (max-width: 767px) {
+    .offer {
+        height: 650px;
+    }
+}
+
+@media (max-width: 767px) {
+    .offer__title {
+        padding-top: 130px;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .offer__price-price {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn {
+        border-radius: 7px;
+        width: 275px;
+    }
+}
+
+/* блок фотосессия */
+
+@media (max-width: 992px) {
+    .photosession .container{
+        flex-direction: column;
+    }
+    .photosession__text h3 {
+        text-align: center;
+    }
+}
+
+/* блок портфолио */
+
+@media (max-width: 767px) {
+    .portfolio__show-all-foto {
+        display: none;
+    }
+}
+
+/* блок about */
+
+@media (max-width: 767px) {
+    .about .container {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 767px) {
+    .about__foto .foto {
+        margin-left: 71px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about__foto-text {
+        margin-left: -145px;
+    }
+}
+
+/* блок бронирование */
+
+
+/* блок map */
+
+
+/*блок отзывы*/
+
+
+/*блок footer*/
+
+
+
